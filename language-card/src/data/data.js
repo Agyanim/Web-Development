@@ -1,11 +1,11 @@
-import javascript  from '../assets/js.jpg'
-import cpp  from '../assets/cpp.jpg'
-import csharp  from '../assets/csharp.jpg'
-import html  from '../assets/html.jpg'
-import css  from '../assets/css.jpg'
-import java2  from '../assets/java2.jpg'
-import php  from '../assets/php.jpg'
-import python  from '../assets/python.jpg'
+import javascript  from '../assets/js.png'
+import cpp  from '../assets/cpp.png'
+import csharp  from '../assets/csharp.png'
+import html  from '../assets/html.png'
+import css  from '../assets/css.png'
+import java2  from '../assets/react.png'
+import php  from '../assets/php.png'
+import python  from '../assets/python.png'
 
 
 export const data =[

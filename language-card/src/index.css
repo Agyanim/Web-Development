@@ -50,17 +50,49 @@ body{
 }
 
 .lang-card-wrapper{
-  width: 8rem;
-  height: 8rem;
+  width: 150px;
+  height: 150px;
    display: flex;
+   background-color: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  
+
+}
+
+.lang-card-wrapper:hover{
+  box-shadow: 1px 3px 3px 1px black;
+  transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .lang-card-wrapper img{
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  height: 60%;
  
+}
+.cardImage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lang-card-wrapper h3{
+  color: black;
+
+}
+
+.language-list{
+  list-style: none;
+  color: black;
+  padding: 1px;
+}
+
+.language-list li{
+  margin-bottom: 5px;
+
 }
