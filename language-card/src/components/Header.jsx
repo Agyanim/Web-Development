@@ -1,7 +1,11 @@
+
+import headerImage from "../assets/headerImage.png"
 const Header =()=>{
 
     return (
-        <div>Header</div>
+        <div>Header
+            <img src={headerImage} alt="logo" />
+        </div>
     )
 }
 
