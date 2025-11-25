@@ -11,42 +11,42 @@ import python  from '../assets/python.jpg'
 export const data =[
     {
         name:"Javascript",
-        img: javascript,
+        image: javascript,
         option: ["Website Development","1995","Brendan Eich"]
     },
     {
         name:"C++",
-        img: cpp,
+        image: cpp,
         option: ["Website Development","1993","Tim Reck"]
     },
     {
         name:"Csharp",
-        img: csharp,
+        image: csharp,
         option: ["Website Development","1995","Brendan Eich"]
     },
     {
         name:"HTML",
-        img: html,
+        image: html,
         option: ["Website Development","1995","Brendan Eich"]
     },
     {
         name:"Java",
-        img: java2,
+        image: java2,
         option: ["Website Development","1995","Brendan Eich"]
     },
     {
         name:"PHP",
-        img: php,
+        image: php,
         option: ["Website Development","1995","Brendan Eich"]
     },
     {
         name:"CSS",
-        img: css,
+        image: css,
         option: ["Website Development","1994","Brendan Eich"]
     },
     {
         name:"Python",
-        img: python,
+        image: python,
         option: ["Website Development","1995","Brendan Eich"]
     },
 ]

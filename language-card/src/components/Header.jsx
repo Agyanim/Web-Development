@@ -1,10 +1,10 @@
-
+import  '../index.css'
 import headerImage from "../assets/headerImage.png"
 const Header =()=>{
 
     return (
-        <div>Header
-            <img src={headerImage} alt="logo" />
+        <div className="header-wrapper">
+            <img className="image" src={headerImage} alt="logo" />
         </div>
     )
 }
