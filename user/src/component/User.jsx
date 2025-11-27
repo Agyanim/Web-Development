@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import UserCard from "./UserCard";
+import HeaderCard from "./header/HeaderCard";
+import MainCard from "./main/MainCard";
+import "../index.css"
 
 const User = () => {
 	const [user, setUser] = useState({});
@@ -16,8 +18,9 @@ useEffect(()=>{
 console.log(user);
 
 	return (
-		<div>
-			<UserCard {...user} getData={getData}/>
+		<div className="user-wrapper">
+			<HeaderCard {...user} />
+			<MainCard {...user} getData={getData}/>
 		</div>
 	);
 };
