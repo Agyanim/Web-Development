@@ -3,6 +3,7 @@ import HeaderCard from "./header/HeaderCard";
 import MainCard from "./main/MainCard";
 import "../index.css";
 import axios from "axios";
+import useCount from "./hooks/count";
 
 const User = () => {
 	const [user, setUser] = useState({});
@@ -29,6 +30,11 @@ const User = () => {
 			clearInterval(interId);
 		};
 	}, []);
+
+
+	const {count}= useCount()
+	console.log(count);
+	
 	return (
 		<div className="user-wrapper">
 			<HeaderCard {...user} />
