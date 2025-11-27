@@ -17,7 +17,7 @@ const MainCard = ({name,email,location,phone,getData,picture,registered}) => {
         <p>{new Date(registered?.date).toLocaleDateString("en-US")}</p>
       </div>
       </div>
-      <button onClick={getData}>Click</button>
+      <button className="btn" onClick={getData}>Click</button>
     </div>
   )
 }
