@@ -9,12 +9,12 @@ const Header = () => {
 				<li>
 					<NavLink to={"/"}>Home</NavLink>
 				</li>
-				<li>
+				{/* <li>
 					<NavLink to={"/about"}>About</NavLink>
 				</li>
 				<li>
 					<NavLink to={"/courses"}>Course</NavLink>
-				</li>
+				</li> */}
 				<li>
 					<NavLink to={"/personnel"}>Personnel</NavLink>
 				</li>

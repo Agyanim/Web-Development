@@ -1,8 +1,13 @@
 import React from 'react'
-
-const Courses = () => {
+import "./course.css"
+const Courses = ({name,img,text}) => {
   return (
-    <div>Courses</div>
+    <div className='course-card-wrapper'>
+      <img src={img} alt="img" />
+      <h1>{name}</h1>
+      <h3>{text}</h3>
+
+    </div>
   )
 }
 

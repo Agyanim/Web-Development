@@ -32,3 +32,5 @@ const data = [
         img:Python
     },
 ]
+
+export default data

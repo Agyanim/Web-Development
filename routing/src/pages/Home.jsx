@@ -1,11 +1,11 @@
 import React from "react";
 import "./pages.css";
-import Courses from "./Courses";
+import Courses from "../components/courses/Courses";
+import data from "../data/data"
 
 const Home = () => {
 	return (
 		<div className="home-wrapper">
-				<h1>About</h1>
 			<div className="about-wrapper">
 					<p>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet alias sit doloremque deleniti iusto similique dignissimos minus delectus? Accusamus, dolore!
@@ -25,7 +25,10 @@ const Home = () => {
 			<div className="course-wrapper">
 				<h1>Courses</h1>
 				<div>
-					<Courses />
+					{data.map(data=>
+					<Courses {...data} key={data.id}/>
+
+					)}
 				</div>
 			</div>
 		</div>

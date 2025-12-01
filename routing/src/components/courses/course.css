@@ -1,0 +1,21 @@
+.course-card-wrapper{
+   background-color: aqua; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+
+}
+
+.course-card-wrapper img{
+    width: 120px;
+}
+.course-card-wrapper h1{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.course-card-wrapper h3{
+font-size: large;
+}
