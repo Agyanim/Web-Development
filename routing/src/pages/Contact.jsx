@@ -1,8 +1,9 @@
 import React from 'react'
+import "./pages.css"
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className='contact-wrapper'>Contact</div>
   )
 }
 

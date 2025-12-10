@@ -1,0 +1,17 @@
+.personnel-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 1rem;
+
+}
+
+.personnel-card img{
+    border-radius: 10px;
+}
+
+.personnel-card h1{
+    font-size: larger;
+}

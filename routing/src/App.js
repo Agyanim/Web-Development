@@ -2,23 +2,29 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Footer from "./pages/Footer";
 import Home from "./pages/Home";
-import Navbar from "./pages/Navbar";
-import PageNotFound from "./pages/PageNotFound";
+import Header from "./components/header/Header"
+import Footer from "./components/footer/Footer";
+import NotFound from "./pages/NotFound";
+import Courses from "./components/courses/Courses";
+import Personnel from "./pages/Personnel";
+import PersonnelDetail from "./pages/PersonnelDetail";
 
 function App() {
 	return (
 		<div className="app">
 			<BrowserRouter>
-				<Navbar />
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="*" element={<PageNotFound />} />
-				</Routes>
-				<Footer />
+			<Header/>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/about" element={<About />} />
+						<Route path="/courses" element={<Courses />} />
+						<Route path="/personnel" element={<Personnel />} />
+						<Route path="/personnel-detail/:id" element={<PersonnelDetail />} />
+						<Route path="/contact" element={<Contact />} />
+						<Route path="*" element={<NotFound />} />
+					</Routes>
+					<Footer/>
 			</BrowserRouter>
 		</div>
 	);
